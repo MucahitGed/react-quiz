@@ -91,7 +91,7 @@ const questions = [
         <div className="options">
           {questions[quesIdx].answerOptions.map((answerOption) => (
                 <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-              ))}
+            ))}
         </div>
       </div>
         <div className="Footer">
